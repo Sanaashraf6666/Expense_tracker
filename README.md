@@ -14,9 +14,6 @@ A simple web-based expense tracker to record and manage your daily expenses with
 - CSS
 - JavaScript
 
-## Live Preview
-(You can deploy this using GitHub Pages or Netlify)
-
 ## Screenshot
 
 ![image](https://github.com/user-attachments/assets/5b4bf72f-72c9-41b7-b762-26da43fc12c9)
