@@ -18,6 +18,10 @@ A simple web-based expense tracker to record and manage your daily expenses with
 
 ![image](https://github.com/user-attachments/assets/5b4bf72f-72c9-41b7-b762-26da43fc12c9)
 
+## Live Preview
+[Click here to view the app on Vercel](https://vercel.com/sanas-projects-c25e2397/expense-tracker)
+
+
 
 ## Setup
 1. Clone the repo:
