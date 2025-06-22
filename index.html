@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h1>Welcome to the <br><span>Expense Tracker</span></h1></div>
+    <div class="container">
+    <div class="form">
+        
+            <h3 class="heading">Description</h3>
+        
+        <input id="expense-description" placeholder="Any description" type="text"/>
+        <h3 class="heading">Amount</h3>
+
+
+        <input id="expense-amount" placeholder="Enter amount" type="number" min="0"/>
+                            <h3 class="heading">Category</h3>
+                            <select id="expense-type">
+            <option value="entertainment">Entertainment</option>
+            <option value="utilities">Utilities</option>
+            <option value="groceries">Groceries</option>
+            <option value="transportation">Transportation</option>  
+            <option value="healthcare">Healthcare</option>
+            <option value="other">Other</option>
+        </select>
+
+        <input id="expense-date" type="date" />
+        <input id="expense-time" type="time" />
+        <button id="add-expense-btn">Add Expense</button>
+    </div>
+    <div class="content">
+    <h3 class="heading">Expense List</h3>
+
+    <ul id="expense-list" class="list"></ul>
+    <div id="total-expense" class="total">
+        Total Expense: Rs. <span id="total-amount">0</span>
+    </div>
+    </div>
+<script src="script.js" defer></script>
+</body>
+</html>
